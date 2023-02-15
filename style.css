@@ -1,0 +1,107 @@
+
+/* COMENTÁRIOS */
+
+h1, h2, p {
+    text-align:center;
+}
+
+h1, h2 {
+    font-family: impact, serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif ;
+    padding: 20px;
+} 
+
+.established {
+    font-style: italic;
+}
+
+.menu {
+    width: 300px;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid red; */
+    /* TUDO substituido por padding!
+     padding-left: 20px;
+    padding-right: 20px; 
+    padding-top: 20px;
+    padding-bottom: 20px; */
+    padding: 20px;
+    max-width: 500px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+p.flavor , .sobremesa  {
+    text-align: left; 
+    width: 75%;
+}
+
+p.preço {
+    text-align: right; width: 25%;
+}
+
+.item p {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.address {
+    margin-bottom: 5px
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 14px;
+}
+
+a {
+    transition: 0.8s;
+    color: black;
+}
+/*Quando passar o mouse no link */
+a:visited {
+    color: black;
+}
+/* Ele fica assim:*/
+a:hover {
+    color: brown;    
+}
+/* Após o clique, ficará branco*/
+a:active {
+    color: brown;
+}
